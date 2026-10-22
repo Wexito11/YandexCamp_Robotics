@@ -4,7 +4,14 @@
 
 Team project from the **Yandex Education × Ural Federal University studcamp «Industrial Robotics»** (July 2026, Yekaterinburg).
 
-The task: a **XiaoR GFS-X** tracked robot (Raspberry Pi 4B) has to find a ball with its camera, drive around obstacles and stop with the ball between its grippers. The policy is trained in a Unity simulation and then transferred to the real robot.
+The task: a **XiaoR GFS-X** tracked robot (Raspberry Pi 4B) has to find a ball with its camera, drive around obstacles and stop with the ball between its grippers. A second robot with a LiDAR gives an approximate direction and distance to the ball at the start. The policy is trained in a Unity simulation and then transferred to the real robot.
+
+<p align="center">
+  <img src="docs/img/gfsx_robot.jpg" width="40%" alt="XiaoR GFS-X tracked robot with camera, ultrasonic sensors and gripper">
+  &nbsp;&nbsp;
+  <img src="docs/img/lidar_robot.jpg" width="40%" alt="Second robot with LiDAR used for the initial ball hint">
+</p>
+<p align="center"><i>Left: XiaoR GFS-X with camera, ultrasonic and IR sensors and gripper. Right: the LiDAR robot that gives the starting hint.</i></p>
 
 ## My part
 
